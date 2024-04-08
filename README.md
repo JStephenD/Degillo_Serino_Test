@@ -41,6 +41,7 @@ a context/provider setup was also used to make sure that the rootReducer is avai
 ## ChatGpt Assistance
 - reducer ecosystem: as I shared, I was not particularly familiar with setting reducers from the ground-up, but nonetheless, making and implementing reducers is OK for me!
 - tailwind emoji color: see serino_degillo\app\question2\page.tsx:46, I wanted to add a plus icon but the available color from UNICODE is not green
+- navbar: component
   
 <br />
 

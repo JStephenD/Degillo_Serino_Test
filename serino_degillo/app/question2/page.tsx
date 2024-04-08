@@ -19,6 +19,12 @@ export const TodoList = () => {
       alert('empty todo text')
       return
     }
+    for (let todo of state?.todos ?? []) {
+      if (todo.text == text) {
+        alert('existing todo')
+        return
+      }
+    }
 
     dispatch({ type: 'ADD_TODO', payload: { completed: false, text } })
     setNewTodo('')
